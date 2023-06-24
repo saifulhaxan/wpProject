@@ -1,0 +1,48 @@
+{
+    "key": "group_645e7e0633a9a",
+    "title": "Post Video",
+    "fields": [
+        {
+            "key": "field_645e7e07167ec",
+            "label": "Video Link",
+            "name": "video_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "Video Id in case of YouTube or Vimeo.\r\nURL in case of locally uploaded video",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ],
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:videos"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1683917792
+}

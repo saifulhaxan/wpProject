@@ -1,0 +1,43 @@
+{
+    "name": "posts-filter-block",
+    "title": "Posts Filter Block",
+    "description": "Posts Filter Block.",
+    "style": "file:./posts-filter-block.css",
+    "category": "widgets",
+    "icon": "plus",
+    "apiVersion": 2,
+    "keywords": [
+        "r2",
+        "post filter"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "posts-filter-block.php",
+        "postTypes": [ "post", "page" ]
+    },
+    "styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "posts-filter", "label": "Posts Filter" }
+    ],
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "spacing": false,
+        "typography": false,
+        "fullHeight": true
+    },
+    "example": {
+        "attributes": {
+            "data": {
+                "preview" : true
+            }
+        }
+    }
+}

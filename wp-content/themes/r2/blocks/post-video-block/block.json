@@ -1,0 +1,43 @@
+{
+    "name": "post-video-block",
+    "title": "Post Video Block",
+    "description": "Post Video Block.",
+    "style": "file:./post-video-block.css",
+    "category": "widgets",
+    "icon": "plus",
+    "apiVersion": 2,
+    "keywords": [
+        "r2",
+        "post video block"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "post-video-block.php",
+        "postTypes": [ "post", "page" ]
+    },
+    "styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "post-video-block", "label": "Post Video Block" }
+    ],
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "spacing": false,
+        "typography": false,
+        "fullHeight": true
+    },
+    "example": {
+        "attributes": {
+            "data": {
+                "preview" : true
+            }
+        }
+    }
+}

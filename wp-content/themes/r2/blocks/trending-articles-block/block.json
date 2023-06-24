@@ -1,0 +1,43 @@
+{
+    "name": "trending-articles-block",
+    "title": "Trending Articles Block",
+    "description": "Trending Articles Block.",
+    "style": "file:./trending-articles-block.css",
+    "category": "widgets",
+    "icon": "plus",
+    "apiVersion": 2,
+    "keywords": [
+        "r2",
+        "post filter"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "trending-articles-block.php",
+        "postTypes": [ "post", "page" ]
+    },
+    "styles": [
+        { "name": "default", "label": "Default", "isDefault": true },
+        { "name": "trending-articles-block", "label": "Trending Articles Block" }
+    ],
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "alignContent": false,
+        "color": {
+            "text": false,
+            "background": false,
+            "link": false
+        },
+        "alignText": false,
+        "spacing": false,
+        "typography": false,
+        "fullHeight": true
+    },
+    "example": {
+        "attributes": {
+            "data": {
+                "preview" : true
+            }
+        }
+    }
+}

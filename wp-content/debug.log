@@ -1,0 +1,137 @@
+[12-May-2023 10:50:52 UTC] PHP Warning:  Undefined variable $qrecent_posts_queryuery in C:\xampp\htdocs\project-r2\wp-content\themes\r2\functions.php on line 373
+[12-May-2023 10:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\project-r2\wp-content\themes\r2\functions.php:373
+Stack trace:
+#0 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): r2_filter_posts('')
+#1 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\project-r2\wp-admin\admin-ajax.php(188): do_action('wp_ajax_r2_filt...')
+#4 {main}
+  thrown in C:\xampp\htdocs\project-r2\wp-content\themes\r2\functions.php on line 373
+[12-May-2023 10:52:52 UTC] PHP Warning:  Undefined variable $recent_posts_queryuery in C:\xampp\htdocs\project-r2\wp-content\themes\r2\functions.php on line 373
+[12-May-2023 10:52:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function the_post() on null in C:\xampp\htdocs\project-r2\wp-content\themes\r2\functions.php:373
+Stack trace:
+#0 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): r2_filter_posts('')
+#1 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\project-r2\wp-admin\admin-ajax.php(188): do_action('wp_ajax_r2_filt...')
+#4 {main}
+  thrown in C:\xampp\htdocs\project-r2\wp-content\themes\r2\functions.php on line 373
+[12-May-2023 12:47:56 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 74
+[12-May-2023 13:04:30 UTC] PHP Deprecated:  Function get_the_author was called with an argument that is <strong>deprecated</strong> since version 2.1.0 with no alternative available. in C:\xampp\htdocs\project-r2\wp-includes\functions.php on line 5707
+[12-May-2023 13:06:51 UTC] PHP Warning:  Undefined variable $post in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\posts-filter-block\posts-filter-block.php on line 58
+[12-May-2023 13:06:51 UTC] PHP Warning:  Attempt to read property "post_author" on null in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\posts-filter-block\posts-filter-block.php on line 58
+[12-May-2023 13:06:51 UTC] PHP Deprecated:  Function get_the_author was called with an argument that is <strong>deprecated</strong> since version 2.1.0 with no alternative available. in C:\xampp\htdocs\project-r2\wp-includes\functions.php on line 5707
+[12-May-2023 13:07:51 UTC] PHP Deprecated:  Function get_the_author was called with an argument that is <strong>deprecated</strong> since version 2.1.0 with no alternative available. in C:\xampp\htdocs\project-r2\wp-includes\functions.php on line 5707
+[12-May-2023 13:17:54 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 56
+[12-May-2023 13:17:54 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 88
+[12-May-2023 13:17:54 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 56
+[12-May-2023 13:17:54 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 88
+[12-May-2023 13:17:54 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 56
+[12-May-2023 13:17:54 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 88
+[12-May-2023 13:17:54 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 56
+[12-May-2023 13:17:54 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 88
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 42
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 57
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 89
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 42
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 57
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 89
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 57
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 89
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 42
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 57
+[12-May-2023 13:18:47 UTC] PHP Warning:  Undefined variable $i in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 89
+[12-May-2023 13:22:53 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 43
+[12-May-2023 13:22:53 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 43
+[12-May-2023 13:22:53 UTC] PHP Warning:  Array to string conversion in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\trending-articles-block\trending-articles-block.php on line 43
+[12-May-2023 18:26:03 UTC] PHP Warning:  Undefined variable $html_markup in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\post-video-block\post-video-block.php on line 76
+[12-May-2023 19:35:04 UTC] PHP Fatal error:  Uncaught TypeError: array_map(): Argument #2 ($array) must be of type array, int given in C:\xampp\htdocs\project-r2\wp-includes\class-wp-query.php:2194
+Stack trace:
+#0 C:\xampp\htdocs\project-r2\wp-includes\class-wp-query.php(2194): array_map('absint', 1)
+#1 C:\xampp\htdocs\project-r2\wp-includes\class-wp-query.php(3787): WP_Query->get_posts()
+#2 C:\xampp\htdocs\project-r2\wp-includes\class-wp-query.php(3919): WP_Query->query(Array)
+#3 C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\posts-filter-block\posts-filter-block.php(136): WP_Query->__construct(Array)
+#4 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(676): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): acf_block_render_template(Array, '\nLorum Ipsum do...', false, 108, Object(WP_Block), Array)
+#6 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(650): do_action('acf_block_rende...', Array, '', false, 108, Object(WP_Block), Array)
+#9 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(569): acf_render_block(Array, '', false, 108, Object(WP_Block), Array)
+#10 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(502): acf_rendered_block(Array, '', false, 108, Object(WP_Block))
+#11 C:\xampp\htdocs\project-r2\wp-includes\class-wp-block.php(258): acf_render_block_callback(Array, '', Object(WP_Block))
+#12 C:\xampp\htdocs\project-r2\wp-includes\blocks.php(1051): WP_Block->render()
+#13 C:\xampp\htdocs\project-r2\wp-includes\blocks.php(1089): render_block(Array)
+#14 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): do_blocks('<!-- wp:acf/sea...')
+#15 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/sea...', Array)
+#16 C:\xampp\htdocs\project-r2\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:acf/sea...')
+#17 C:\xampp\htdocs\project-r2\wp-content\themes\r2\page.php(24): the_content()
+#18 C:\xampp\htdocs\project-r2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#19 C:\xampp\htdocs\project-r2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#20 C:\xampp\htdocs\project-r2\index.php(17): require('C:\\xampp\\htdocs...')
+#21 {main}
+  thrown in C:\xampp\htdocs\project-r2\wp-includes\class-wp-query.php on line 2194
+[13-May-2023 01:06:26 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_author" in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\featured-article-block\featured-article-block.php:69
+Stack trace:
+#0 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(676): include()
+#1 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): acf_block_render_template(Array, '\nLorum Ipsum do...', false, 108, Object(WP_Block), Array)
+#2 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(650): do_action('acf_block_rende...', Array, '', false, 108, Object(WP_Block), Array)
+#5 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(569): acf_render_block(Array, '', false, 108, Object(WP_Block), Array)
+#6 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(502): acf_rendered_block(Array, '', false, 108, Object(WP_Block))
+#7 C:\xampp\htdocs\project-r2\wp-includes\class-wp-block.php(258): acf_render_block_callback(Array, '', Object(WP_Block))
+#8 C:\xampp\htdocs\project-r2\wp-includes\blocks.php(1051): WP_Block->render()
+#9 C:\xampp\htdocs\project-r2\wp-includes\blocks.php(1089): render_block(Array)
+#10 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): do_blocks('<!-- wp:acf/sea...')
+#11 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/sea...', Array)
+#12 C:\xampp\htdocs\project-r2\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:acf/sea...')
+#13 C:\xampp\htdocs\project-r2\wp-content\themes\r2\page.php(24): the_content()
+#14 C:\xampp\htdocs\project-r2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\project-r2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\project-r2\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\featured-article-block\featured-article-block.php on line 69
+[13-May-2023 01:06:43 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "get_the_author" in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\featured-article-block\featured-article-block.php:69
+Stack trace:
+#0 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(676): include()
+#1 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): acf_block_render_template(Array, '\nLorum Ipsum do...', false, 108, Object(WP_Block), Array)
+#2 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(650): do_action('acf_block_rende...', Array, '', false, 108, Object(WP_Block), Array)
+#5 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(569): acf_render_block(Array, '', false, 108, Object(WP_Block), Array)
+#6 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(502): acf_rendered_block(Array, '', false, 108, Object(WP_Block))
+#7 C:\xampp\htdocs\project-r2\wp-includes\class-wp-block.php(258): acf_render_block_callback(Array, '', Object(WP_Block))
+#8 C:\xampp\htdocs\project-r2\wp-includes\blocks.php(1051): WP_Block->render()
+#9 C:\xampp\htdocs\project-r2\wp-includes\blocks.php(1089): render_block(Array)
+#10 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): do_blocks('<!-- wp:acf/sea...')
+#11 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/sea...', Array)
+#12 C:\xampp\htdocs\project-r2\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:acf/sea...')
+#13 C:\xampp\htdocs\project-r2\wp-content\themes\r2\page.php(24): the_content()
+#14 C:\xampp\htdocs\project-r2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\project-r2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\project-r2\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\featured-article-block\featured-article-block.php on line 69
+[13-May-2023 06:31:05 UTC] PHP Fatal error:  Uncaught TypeError: Cannot increment array in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\faqs-block\faqs-block.php:38
+Stack trace:
+#0 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(676): include()
+#1 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): acf_block_render_template(Array, '', false, 108, Object(WP_Block), Array)
+#2 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(650): do_action('acf_block_rende...', Array, '', false, 108, Object(WP_Block), Array)
+#5 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(569): acf_render_block(Array, '', false, 108, Object(WP_Block), Array)
+#6 C:\xampp\htdocs\project-r2\wp-content\plugins\advanced-custom-fields-pro\pro\blocks.php(502): acf_rendered_block(Array, '', false, 108, Object(WP_Block))
+#7 C:\xampp\htdocs\project-r2\wp-includes\class-wp-block.php(258): acf_render_block_callback(Array, '', Object(WP_Block))
+#8 C:\xampp\htdocs\project-r2\wp-includes\blocks.php(1051): WP_Block->render()
+#9 C:\xampp\htdocs\project-r2\wp-includes\blocks.php(1089): render_block(Array)
+#10 C:\xampp\htdocs\project-r2\wp-includes\class-wp-hook.php(308): do_blocks('<!-- wp:acf/sea...')
+#11 C:\xampp\htdocs\project-r2\wp-includes\plugin.php(205): WP_Hook->apply_filters('<!-- wp:acf/sea...', Array)
+#12 C:\xampp\htdocs\project-r2\wp-includes\post-template.php(255): apply_filters('the_content', '<!-- wp:acf/sea...')
+#13 C:\xampp\htdocs\project-r2\wp-content\themes\r2\page.php(24): the_content()
+#14 C:\xampp\htdocs\project-r2\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\project-r2\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\project-r2\index.php(17): require('C:\\xampp\\htdocs...')
+#17 {main}
+  thrown in C:\xampp\htdocs\project-r2\wp-content\themes\r2\blocks\faqs-block\faqs-block.php on line 38
+[13-May-2023 07:10:00 UTC] PHP Warning:  Undefined variable $html_markup in C:\xampp\htdocs\project-r2\wp-content\themes\r2\functions.php on line 448
+[13-May-2023 07:10:43 UTC] PHP Warning:  Undefined variable $html_markup in C:\xampp\htdocs\project-r2\wp-content\themes\r2\functions.php on line 448
